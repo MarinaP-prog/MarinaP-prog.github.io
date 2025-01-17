@@ -47,11 +47,11 @@ const linksData = [
     { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on Git" },
     { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on Git" },
     { url: "https://github.com/MarinaP-prog/WeatherAustra", text: "See on Git" },
-    { url: "https://github.com/MarinaP-prog/example2", text: "See on Git" },
+    { url: "https://github.com/MarinaP-prog/", text: "See on Git" },
     { url: "https://github.com/MarinaP-prog/FinApp", text: "See on Git" },
-    { url: "https://github.com/MarinaP-prog/example4", text: "See on Git" },
-    { url: "https://github.com/MarinaP-prog/example4", text: "See on Git" },
-    { url: "https://github.com/MarinaP-prog/example4", text: "See on Git" },
+    { url: "https://github.com/MarinaP-prog/", text: "See on Git" },
+    { url: "https://github.com/MarinaP-prog/", text: "See on Git" },
+    { url: "https://github.com/MarinaP-prog/", text: "See on Git" },
 ];
 
 const containers = document.querySelectorAll(".linksContainer");
