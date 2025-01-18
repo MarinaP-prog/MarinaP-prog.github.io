@@ -52,7 +52,7 @@ portfolio-website/
 ├── bootstrap.bundle.min.js
 ├── buttons.js           # Custom JavaScript
 ├── README.md            # Project documentation
-└── LICENSE              # License (if applicable)
+└── LICENSE              # License
 
 ## Acknowledgments
 - **Icons8** for providing high-quality icons.
