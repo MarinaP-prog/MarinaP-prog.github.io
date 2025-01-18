@@ -56,8 +56,14 @@
     <main>
         <section id="about">
             <div class="position-relative overflow-hidden" style="font-size: large; color: rgb(52, 50, 48);">
-                <img src="./images/hobbies/skoda.jpg" class="img-fluid w-100" alt="Your Image" loading="lazy"
+                <picture>
+                    <source srcset="/images/hobbies/skoda.jpeg" media="(min-width: 992px)">
+                    <source srcset="/images/hobbies/skoda_tab.jpeg" media="(min-width: 768px)">
+                    <source srcset="/images/hobbies/skoda_tab.jpeg" media="(max-width: 767px)">
+                    <img src="./images/hobbies/skoda.jpeg" class="img-fluid w-100" alt="Your Image" loading="lazy"
                     style="object-fit: cover; height: 100vh;">
+                </picture>
+                
                 <!-- style="top: 6%; left: 17%;" -->
                 <div class="position-absolute text-end p-4" style="bottom: 23%; left: 20%;">
                     <h1 class="display-5 fw-bold">Junior
