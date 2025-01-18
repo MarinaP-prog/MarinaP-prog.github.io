@@ -56,7 +56,7 @@
     <main>
         <section id="about">
             <div class="position-relative overflow-hidden" style="font-size: large; color: rgb(52, 50, 48);">
-                <img src="./images/hobbies/skoda1.jpg" class="img-fluid w-100" alt="Your Image" loading="lazy"
+                <img src="./images/hobbies/skoda.jpg" class="img-fluid w-100" alt="Your Image" loading="lazy"
                     style="object-fit: cover; height: 100vh;">
                 <!-- style="top: 6%; left: 17%;" -->
                 <div class="position-absolute text-end p-4" style="bottom: 23%; left: 20%;">
@@ -77,9 +77,9 @@
                             <div
                                 class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                                 <svg class="bi" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                                     <path
-                                        d="M352 256c0 22.2-1.2 43.6-3.3 64l-185.3 0c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64l185.3 0c2.2 20.4 3.3 41.8 3.3 64zm28.8-64l123.1 0c5.3 20.5 8.1 41.9 8.1 64s-2.8 43.5-8.1 64l-123.1 0c2.1-20.6 3.2-42 3.2-64s-1.1-43.4-3.2-64zm112.6-32l-116.7 0c-10-63.9-29.8-117.4-55.3-151.6c78.3 20.7 142 77.5 171.9 151.6zm-149.1 0l-176.6 0c6.1-36.4 15.5-68.6 27-94.7c10.5-23.6 22.2-40.7 33.5-51.5C239.4 3.2 248.7 0 256 0s16.6 3.2 27.8 13.8c11.3 10.8 23 27.9 33.5 51.5c11.6 26 20.9 58.2 27 94.7zm-209 0L18.6 160C48.6 85.9 112.2 29.1 190.6 8.4C165.1 42.6 145.3 96.1 135.3 160zM8.1 192l123.1 0c-2.1 20.6-3.2 42-3.2 64s1.1 43.4 3.2 64L8.1 320C2.8 299.5 0 278.1 0 256s2.8-43.5 8.1-64zM194.7 446.6c-11.6-26-20.9-58.2-27-94.6l176.6 0c-6.1 36.4-15.5 68.6-27 94.6c-10.5 23.6-22.2 40.7-33.5 51.5C272.6 508.8 263.3 512 256 512s-16.6-3.2-27.8-13.8c-11.3-10.8-23-27.9-33.5-51.5zM135.3 352c10 63.9 29.8 117.4 55.3 151.6C112.2 482.9 48.6 426.1 18.6 352l116.7 0zm358.1 0c-30 74.1-93.6 130.9-171.9 151.6c25.5-34.2 45.2-87.7 55.3-151.6l116.7 0z" />
+                                        d="M144 144l0 48 160 0 0-48c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192l0-48C80 64.5 144.5 0 224 0s144 64.5 144 144l0 48 16 0c35.3 0 64 28.7 64 64l0 192c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 256c0-35.3 28.7-64 64-64l16 0z" />
                                 </svg>
                             </div>
                             <div>
@@ -487,57 +487,75 @@
         <section id="hobbies">
             <div class="container">
                 <h2 class="text-body-emphasis text-center my-5">Hobbies</h2>
-                 <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div id="hobbies_carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="/images/hobbies/amsterdam.jpg" class="img-fluid d-block w-100" alt=""
-                                style="object-fit: cover; height: 100vh;">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h3>I ride a bike</h3>
+                            <picture>
+                                <source srcset="/images/hobbies/amsterdam.jpg" media="(min-width: 992px)">
+                                <source srcset="/images/hobbies/amsterdam_tab.jpeg" media="(min-width: 768px)">
+                                <source srcset="/images/hobbies/amsterdam_tab.jpeg" media="(max-width: 767px)">
+                                <img src="/images/hobbies/amsterdam.jpg" class="d-block w-100"
+                                    alt="Amsterdam, Netherlands" style="object-fit: cover; height: 80vh;">
+                            </picture>
+                                <em>Amsterdam, Netherlands</em>
                             </div>
+                        <div class="carousel-item">
+                            <picture>
+                            <source srcset="/images/hobbies/honda.jpg" media="(min-width: 992px)">
+                            <source srcset="/images/hobbies/honda_tab.jpeg" media="(min-width: 768px)">
+                            <source srcset="/images/hobbies/honda_tab.jpeg" media="(max-width: 767px)">
+                            <img src="/images/hobbies/honda.jpg" class="d-block w-100" alt="Honda"
+                                style="object-fit: cover; height: 80vh;">
+                            </picture>
+                            <em>Central Bohemian Region</em>
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/hobbies/honda.jpg" class="img-fluid d-block w-100" alt="..."
-                                style="object-fit: cover; height: 100vh;">
-                                <div class="carousel-caption d-none d-md-block text-uppercase">
-                                    <h3>I ride a motorbike</h3>
-                                </div>
+                            <picture>
+                            <source srcset="/images/hobbies/ocean.jpg" media="(min-width: 992px)">
+                            <source srcset="/images/hobbies/ocean_tab.jpeg" media="(min-width: 768px)">
+                            <source srcset="/images/hobbies/ocean_tab.jpeg" media="(max-width: 767px)">
+                            <img src="/images/hobbies/ocean.jpg" class="d-block w-100" alt="Ocean"
+                                style="object-fit: cover; height: 80vh;">
+                            </picture>
+                            <em>Punta Cana, Dominican Republic</em>
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/hobbies/ocean.jpg" class="img-fluid d-block w-100" alt="..."
-                                style="object-fit: cover; height: 100vh;">
-                                <div class="carousel-caption d-none d-md-block text-uppercase">
-                                    <h3>We travel</h3>
-                                </div>
+                            <picture>
+                            <source srcset="/images/hobbies/orion.jpg" media="(min-width: 992px)">
+                            <source srcset="/images/hobbies/orion_tab.jpeg" media="(min-width: 768px)">
+                            <source srcset="/images/hobbies/orion_tab.jpeg" media="(max-width: 767px)">
+                            <img src="/images/hobbies/orion.jpg" class="d-block w-100" alt="Orion"
+                                style="object-fit: cover; height: 80vh;">
+                            </picture>
+                            <em>Central Bohemian Region</em>
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/hobbies/orion.jpg" class="img-fluid d-block w-100" alt=""
-                                style="object-fit: cover; height: 100vh;">
-                                <div class="carousel-caption d-none d-md-block text-uppercase">
-                                    <h3>I ride a cross motorcycle</h3>
-                                </div>
+                            <picture>
+                            <source srcset="/images/hobbies/praha.jpg" media="(min-width: 992px)">
+                            <source srcset="/images/hobbies/praha_tab.jpeg" media="(min-width: 768px)">
+                            <source srcset="/images/hobbies/praha_tab.jpeg" media="(max-width: 767px)">
+                            <img src="/images/hobbies/praha.jpg" class="d-block w-100" alt="Praha"
+                                style="object-fit: cover; height: 80vh;">
+                            </picture>
+                            <em>Prague, Czech Republic</em>
                         </div>
                         <div class="carousel-item">
-                            <img src="/images/hobbies/praha.jpg" class="img-fluid d-block w-100" alt="..."
-                                style="object-fit: cover; height: 100vh;">
-                                <div class="carousel-caption d-none d-md-block text-uppercase">
-                                    <h3>I take photos</h3>
-                                </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="/images/hobbies/rocky_s_sam.jpg" class="img-fluid d-block w-100" alt="..."
-                                style="object-fit: cover; height: 100vh;">
-                                <div class="carousel-caption d-none d-md-block text-uppercase">
-                                    <h3>We walk the dogs</h3>
-                                </div>
+                            <picture>
+                            <source srcset="/images/hobbies/rocky.jpg" media="(min-width: 992px)">
+                            <source srcset="/images/hobbies/rocky_tab.jpeg" media="(min-width: 768px)">
+                            <source srcset="/images/hobbies/rocky_tab.jpeg" media="(max-width: 767px)">
+                            <img src="/images/hobbies/rocky.jpg" class="d-block w-100" alt="Rocky"
+                                style="object-fit: cover; height: 80vh;">
+                            </picture>
+                            <em>Central Bohemian Region</em>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#hobbies_carousel"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    <button class="carousel-control-next" type="button" data-bs-target="#hobbies_carousel"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -545,6 +563,7 @@
                 </div>
             </div>
         </section>
+
         <section id="contact">
             <div class="col-12 col-lg-6 container my-5">
                 <h2>Contact me - under construction</h2>
