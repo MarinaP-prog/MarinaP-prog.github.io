@@ -9,16 +9,16 @@
             // create button
             const tooltipButton = document.createElement("a");
             tooltipButton.className = "btn btn-success g-4 mt-2 toggle-read-more-btn";
-            tooltipButton.setAttribute("data-bs-toggle", "tooltip");
-            tooltipButton.setAttribute("data-bs-placement", "top");
-            tooltipButton.setAttribute("title", "Click to read more about this project");
+            // tooltipButton.setAttribute("data-bs-toggle", "tooltip");
+            // tooltipButton.setAttribute("data-bs-placement", "top");
+            // tooltipButton.setAttribute("title", "Click to read more about this project");
             tooltipButton.textContent = "Read more";
 
             // add button to DOM
             container.appendChild(tooltipButton);
 
             // Inicializace tooltipu
-            new bootstrap.Tooltip(tooltipButton);
+            // new bootstrap.Tooltip(tooltipButton);
         }
     });
 
