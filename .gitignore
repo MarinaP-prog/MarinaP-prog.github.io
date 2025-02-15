@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# Soubory generované při kompilaci SCSS
+*.css
+*.css.map
+
+# Složka se závislostmi (pro jistotu)
+package-lock.json
+yarn.lock
+
+# Editorové soubory
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
