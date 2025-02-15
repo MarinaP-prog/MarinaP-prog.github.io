@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="0; url=https://marinap-prog.github.io/en/index.html">
-    <title>Document</title>
+    <title>Redirecting...</title>
+    <script>
+        // Zkontroluje, jestli uživatel má v localStorage uloženou preferenci jazyka
+        const userLang = localStorage.getItem("lang") || "en"; // Výchozí je "en"
+        window.location.href = `/${userLang}/`;
+    </script>
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="https://marinap-prog.github.io/en/index.html">link</a></p>
+    <p>If you are not redirected automatically, follow this <a href="/en/">link</a></p>
+    
 </body>
 </html>
