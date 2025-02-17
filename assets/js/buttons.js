@@ -46,10 +46,11 @@
 // odkazy na Github
 const linksData = [
     { url: "https://github.com/MarinaP-prog/webFiktivniFirmy", text: "See on GitHub" },
+    { url: "https://github.com/MarinaP-prog/formJS", text: "See on GitHub" },
+    { url: "https://github.com/MarinaP-prog/Aquarium", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/WeatherAustra", text: "See on GitHub" },
-    { url: "https://github.com/MarinaP-prog/formJS", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/FinApp", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/", text: "See on GitHub" },
     { url: "https://github.com/MarinaP-prog/", text: "See on GitHub" },
