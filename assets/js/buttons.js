@@ -102,7 +102,7 @@ function createGitLinkPages(url, text) {
 
     svg.appendChild(path);
     link.appendChild(svg);
-    link.textContent = `${text}`;
+    link.append(" ", text);
 
     return link;
 }
