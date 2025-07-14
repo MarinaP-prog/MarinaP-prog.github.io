@@ -1,5 +1,23 @@
 "use strict";
 
+//tooltip
+ document.addEventListener("DOMContentLoaded", function () {
+    // generate btn with tooltip
+    const tooltipContainers = document.querySelectorAll(".toggle-read-more");
+
+    tooltipContainers.forEach(container => {
+        // if button exist
+        if (!container.querySelector(".btn-success")) {
+            // create button
+            const tooltipButton = document.createElement("a");
+            tooltipButton.className = "btn btn-success g-4 mt-2 toggle-read-more-btn";
+            tooltipButton.textContent = "Read more";
+
+            // add button to DOM
+            container.appendChild(tooltipButton);
+
+        }
+    });
 
     // Funkcionalita buttons
     document.querySelectorAll(".toggle-read-more-btn").forEach(button => {
@@ -18,7 +36,7 @@
             }
         });
     });
-
+});
 
 
 // odkazy na Github 
