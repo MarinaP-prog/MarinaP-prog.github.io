@@ -311,27 +311,32 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm h-100 d-flex flex-column">
-                            <img src="../assets/images/projects/todo-app.png" class="card-img-top" alt="web fiktivni">
+                            <img src="../assets/images/projects/ui.components.png" class="card-img-top" alt="web fiktivni">
                             <div class="card-body d-flex flex-column">
 
-                                <h5 class="card-title"> <i class="fa-brands fa-js  me-2"></i>To-Do List App</h5>
+                                <h5 class="card-title"> <i class="fa-brands fa-js  me-2"></i>UI Components App</h5>
                                 <p  class="card-text"><strong>Technologies Used:</strong></p>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">🟢 HTML, CSS – structure and basic styling of the app</li>
-                                    <li class="list-group-item">🟢 JavaScript (ES6) – task management and dynamic DOM manipulation</li>
+                                    <li class="list-group-item">🟢 JavaScript (ES6+) – for modular architecture, event handling, and state management</li>
+                                    <li class="list-group-item">🟢 LocalStorage – to persist data (e.g., blog articles) between sessions</li>
                                 </ul>
                                 <div class="read-more-content d-none">
                                 <p class="card-text"><strong>Features:</strong></p>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item">✅ Add a task – by entering a date and task description
-                                    </li>
-                                    <li class="list-group-item">✅  Edit a task – clicking on a task row opens the edit form</li>
-                                    <li class="list-group-item">✅ Delete a task – first, the checkbox must be checked, then the "Delete" button appears, and clicking it removes the task</li>
-                                    <li class="list-group-item">✅ Bulk delete – select all tasks at once using the "Select All" checkbox and delete them together</li>
-                                    <li class="list-group-item">✅ Dynamic UI updates – checkboxes behave correctly, and the "Delete" button disappears when no tasks are selected</li>
+                                    <li class="list-group-item">✅ Burger menu – shows/hides navigation on small screens, closes on outside click</li>
+                                    <li class="list-group-item">✅ Accordion – collapsible content sections generated from JavaScript objects</li>
+                                    <li class="list-group-item">✅ Blog – allows adding articles with title, content, and author; stored in localStorage</li>
+                                    <li class="list-group-item">✅ Search – full-text filter for blog posts by title or author, with “No results found” message</li>
+                                    <li class="list-group-item">✅ Pagination – splits blog posts into pages based on total number and search filters</li>
+                                    <li class="list-group-item">✅ Component-based architecture – each feature (accordion, pagination, etc.) is a separate JS module</li>
                                 </ul>
-                               
-                                <p>This application is designed for task management, allowing users to add, edit, and delete tasks. Tasks can be selected using a checkbox, which then displays the "Delete" button to remove them.</p>
+
+                                <p>
+                                    This app serves as a training platform for building reusable UI components. 
+                                    Each component is isolated, maintainable, and dynamically responds to user interaction. 
+                                    The project focuses on clean code, scalability, and practical usage for future applications.
+                                </p>
                                     <div class="d-grid gap-2 d-md-block">
                                         <a href="https://marinap-prog.github.io/ToDoList/"
                                         class="icon-link icon-link-hover list-group-item "
