@@ -79,7 +79,7 @@ linksData.forEach((linkData, index) => {
 linksGitHubPages.forEach((linkData, index) => {
     if (index < containers.length) {
         const targetContainer = containers[index];
-        targetContainer.appendChild(createGitLink(linksGitHubPages.url, linksGitHubPages.text));
+        targetContainer.appendChild(createGitLinkPages(linksGitHubPages.url, linksGitHubPages.text));
     }
 });
 
