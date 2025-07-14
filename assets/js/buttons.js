@@ -90,8 +90,9 @@ function createGitLinkPages(url, text) {
     link.className = "icon-link icon-link-hover list-group-item";
     link.style.setProperty("--bs-link-hover-color-rgb", "25, 135, 84");
 
+
     const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-    svg.className = "bi";
+    svg.classList.add("bi");
     svg.setAttribute("aria-hidden", true);
     svg.setAttribute("viewBox", "0 0 448 512");
     svg.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
