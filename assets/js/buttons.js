@@ -64,7 +64,7 @@ const linksGitHubPages = [
     { url: "https://marinap-prog.github.io/Aquarium/", text: "See on GitHub Pages"},
 ]
 
-const pagesContainer = document.querySelectorAll(".pagesContainer");
+const pagesContainers = document.querySelectorAll(".pagesContainer");
 const containers = document.querySelectorAll(".linksContainer");
 
 // Prirazeni odkazu do odpovidajicich kontejneru GitHub
@@ -77,8 +77,8 @@ linksData.forEach((linkData, index) => {
 
 // Prirazeni odkazu do odpovidajicich kontejneru GitHubPages
 linksGitHubPages.forEach((linkData, index) => {
-    if (index < containers.length) {
-        const targetContainer = containers[index];
+    if (index < pagesContainers.length) {
+        const targetContainer = pagesContainers[index];
         targetContainer.appendChild(createGitLinkPages(linksGitHubPages.url, linksGitHubPages.text));
     }
 });
