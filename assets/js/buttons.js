@@ -95,7 +95,7 @@ const gitHubContainers = document.querySelectorAll(".linksContainer");
 linksGitHub.forEach((linkData, index) => {
     if (index < gitHubContainers.length) {
         const targetContainer = gitHubContainers[index];
-        targetContainer.appendChild(createIconLinkButton(linkData));
+        targetContainer.appendChild(createIconLinkButton(linkData.url, linkData.text, linkData.path));
     }
 });
 
@@ -104,7 +104,7 @@ linksGitHubPages.forEach((linkData, index) => {
     if (index < gitHubPagesContainers.length) {
         const targetContainer = gitHubPagesContainers[index];
         targetContainer.appendChild(
-            createIconLinkButton(linkData)
+            createIconLinkButton(linkData.url, linkData.text, linkData.path)
         );
     }
 });
