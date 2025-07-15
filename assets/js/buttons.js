@@ -40,10 +40,10 @@
 // read more 
 
 document.addEventListener("DOMContentLoaded", function () {
-    const shortDesc = content.slice(0, 100);
-    const isTruncated = content.length > 100;
-
     const readMoreContent = document.querySelectorAll('.read_more');
+    const shortDesc = readMoreContent.slice(0, 100);
+    const isTruncated = readMoreContent.length > 100;
+
     readMoreContent.textContent = `${shortDesc}...`;
 
     const readMore = document.createElement('button');
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
         readMore.addEventListener('click', () => {
             const isExpanded = readMore.textContent === 'Read more';
             p.classList.toggle('expanded', isExpanded);
-            p.textContent = isExpanded ? content : `${shortDesc}...`;
+            p.textContent = isExpanded ? readMoreContent : `${shortDesc}...`;
             readMore.textContent = isExpanded ? 'Read less' : 'Read more';
         });
     }
