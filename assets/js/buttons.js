@@ -43,28 +43,28 @@ const gitHubPagesPath = "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416
 
 // odkazy na Github
 const linksGitHub = [
-    { url: "https://github.com/MarinaP-prog/FinApp", text: "See on GitHub", path: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/FinApp", text: "See on GitHub", pathD: gitHubPath, },
     {
         url: "https://github.com/MarinaP-prog/reusable-ui-components",
-        text: "See on GitHub", path: gitHubPath,
+        text: "See on GitHub", pathD: gitHubPath,
     },
     {
         url: "https://github.com/MarinaP-prog/habit-tracker/",
-        text: "See on GitHub", path: gitHubPath,
+        text: "See on GitHub", pathD: gitHubPath,
     },
-    { url: "https://github.com/MarinaP-prog/", text: "See on GitHub", path: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/", text: "See on GitHub", pathD: gitHubPath, },
     {
         url: "https://github.com/MarinaP-prog/webFiktivniFirmy",
-        text: "See on GitHub", path: gitHubPath,
+        text: "See on GitHub", pathD: gitHubPath,
     },
-    { url: "https://github.com/MarinaP-prog/formJS", text: "See on GitHub", path: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/Aquarium", text: "See on GitHub", path: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/cviko", text: "See on GitHub", path: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", path: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", path: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/formJS", text: "See on GitHub", pathD: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/Aquarium", text: "See on GitHub", pathD: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/cviko", text: "See on GitHub", pathD: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", pathD: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", pathD: gitHubPath, },
     {
         url: "https://github.com/MarinaP-prog/WeatherAustra",
-        text: "See on GitHub", path: gitHubPath,
+        text: "See on GitHub", pathD: gitHubPath,
     },
 ];
 
@@ -72,23 +72,23 @@ const linksGitHub = [
 const linksGitHubPages = [
     {
         url: "https://marinap-prog.github.io/reusable-ui-components/",
-        text: "See on GitHub Pages", path: gitHubPagesPath,
+        text: "See on GitHub Pages", pathD: gitHubPagesPath,
     },
     {
         url: "https://marinap-prog.github.io/habit-tracker/",
-        text: "See on GitHub Pages", path: gitHubPagesPath,
+        text: "See on GitHub Pages", pathD: gitHubPagesPath,
     },
     {
         url: "https://marinap-prog.github.io/webFiktivniFirmy/",
-        text: "See on GitHub Pages", path: gitHubPagesPath,
+        text: "See on GitHub Pages", pathD: gitHubPagesPath,
     },
     {
         url: "https://marinap-prog.github.io/formJS/",
-        text: "See on GitHub Pages", path: gitHubPagesPath,
+        text: "See on GitHub Pages", pathD: gitHubPagesPath,
     },
     {
         url: "https://marinap-prog.github.io/Aquarium/",
-        text: "See on GitHub Pages", path: gitHubPagesPath,
+        text: "See on GitHub Pages", pathD: gitHubPagesPath,
     },
 ];
 
