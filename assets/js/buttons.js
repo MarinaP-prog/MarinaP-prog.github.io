@@ -99,7 +99,7 @@ const gitHubContainers = document.querySelectorAll(".linksContainer");
 linksGitHub.forEach((linkData, index) => {
     if (index < gitHubContainers.length) {
         const targetContainer = gitHubContainers[index];
-        targetContainer.appendChild(createIconLinkButton(linkData.url, linkData.text, linkData.pathD));
+        targetContainer.appendChild(createIconLinkButton(linkData));
     }
 });
 
@@ -108,7 +108,7 @@ linksGitHubPages.forEach((linkData, index) => {
     if (index < gitHubPagesContainers.length) {
         const targetContainer = gitHubPagesContainers[index];
         targetContainer.appendChild(
-            createIconLinkButton(linkData.url, linkData.text, linkData.pathD)
+            createIconLinkButton(linkData)
         );
     }
 });
@@ -140,7 +140,7 @@ function createIconLinkButton({ url, text, pathD }) {
     svg.setAttribute("xmlns", "http://www.w3.org/2000/svg");
 
     const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    path.setAttribute("d", pathD);
+    path.setAttribute("d", pathD); // buttons.js:143 Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "undefined".
 
     svg.appendChild(path);
     link.appendChild(svg);
