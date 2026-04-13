@@ -52,7 +52,7 @@ const linksGitHub = [
         url: "https://github.com/MarinaP-prog/habit-tracker/",
         text: "See on GitHub", pathD: gitHubPath,
     },
-    { url: "https://github.com/MarinaP-prog/", text: "See on GitHub", pathD: gitHubPath, },
+    { url: "https://github.com/MarinaP-prog/salesforce-SpeakEasy-Language-School", text: "See on GitHub", pathD: gitHubPath, },
     {
         url: "https://github.com/MarinaP-prog/webFiktivniFirmy",
         text: "See on GitHub", pathD: gitHubPath,
@@ -77,6 +77,10 @@ const linksGitHubPages = [
     {
         url: "https://marinap-prog.github.io/habit-tracker/",
         text: "See on GitHub Pages", pathD: gitHubPagesPath,
+    },
+    {
+        url: "https://curious-otter-f1snrv-dev-ed.trailblaze.my.site.com/partner/s/login/",
+        text: "See on Salesforce", pathD: gitHubPagesPath,
     },
     {
         url: "https://marinap-prog.github.io/webFiktivniFirmy/",
