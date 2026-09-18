@@ -59,8 +59,6 @@ const linksGitHub = [
     },
     { url: "https://github.com/MarinaP-prog/formJS", text: "See on GitHub", pathD: gitHubPath, },
     { url: "https://github.com/MarinaP-prog/Aquarium", text: "See on GitHub", pathD: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/cviko", text: "See on GitHub", pathD: gitHubPath, },
-    { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", pathD: gitHubPath, },
     { url: "https://github.com/MarinaP-prog/MagistriApp", text: "See on GitHub", pathD: gitHubPath, },
     {
         url: "https://github.com/MarinaP-prog/WeatherAustra",
